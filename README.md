@@ -5,6 +5,7 @@
 - Для запуска скрипта, необходимо установить python3 (https://www.python.org/downloads/)
 - Скачать скрипт main.py
 - Ввести свои данные в файле скрипта (поля username, password и kladr) для загрузки get-запросов
+- Если у вас нет прокси, установите содержимое переменной (proxySettings = None)
 - С помощью командной строки запустить данный скрипт (пример ./python3 main.py)
 - В папке рядом со скриптом должны появиться два файла GetRequestsClientJobless(original).xml и GetRequestsClientJobless(modified).xml
 - Для проверки работоспособности можете сверить два файла плагином Compare в Notepad++ (https://techblog.sdstudio.top/kak-sravnit-dva-tekstovyh-fajla-s-pomoshhju-notepad/)
